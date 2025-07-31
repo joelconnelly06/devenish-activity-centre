@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Devenish Activity Centre</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Devenish Activity Centre</div>
+    <nav>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h1>Contact Us</h1>
+      <p>If you have any questions or would like to make a booking, please get in touch using the form below.</p>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact us: info@devenishcentre.com | 01234 567890</p>
+    <p>&copy; 2025 Devenish Activity Centre</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
